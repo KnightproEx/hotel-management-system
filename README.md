@@ -25,5 +25,5 @@ A simple JavaFX data entry application that generate and process JSON file.
 
 ### Installation
 
-Simply clone the project and deploy it on your favorite java IDE.
+Simply clone the project and deploy it on your favorite Java IDE.
 
