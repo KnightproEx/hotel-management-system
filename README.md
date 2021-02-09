@@ -1,6 +1,6 @@
 ## Hotel Management System
 
-A simple JavaFX data entry application that generate and process JSON file.
+Simple Hotel booking system built with JavaFX framework and SceneBuilder.
 
 ### Features
 - Add Booking
@@ -10,7 +10,7 @@ A simple JavaFX data entry application that generate and process JSON file.
 ### Implementations
 - JavaFX SceneBuilder UI (FXML)
 - JSON file writer/reader
-- Object-oriented Programming (OOP)
+- Object-oriented Programming (inheritance, method overloading, etc)
 - Data caching
 - Data validation
 
