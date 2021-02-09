@@ -3,13 +3,13 @@
 Simple Hotel booking system built with JavaFX framework and SceneBuilder.
 
 ### Features
-#### Add Booking
+- Add Booking
 ![Add Booking](https://user-images.githubusercontent.com/40281359/107331237-908ec080-6aed-11eb-8042-285ab07496dd.png)
 
-#### Manage Booking (view, update, delete)
+- Manage Booking (view, update, delete)
 ![Manage Booking](https://user-images.githubusercontent.com/40281359/107331372-c3d14f80-6aed-11eb-870c-5af836abc961.png)
 
-#### Login/Logout (credentials are hardcoded `admin:admin`)
+- Login/Logout (credentials are hardcoded `admin:admin`)
 ![Login](https://user-images.githubusercontent.com/40281359/107331425-d6e41f80-6aed-11eb-9f93-a11e3a8cb921.png)
 
 ### Implementations
