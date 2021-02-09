@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.JP.HBS.Controller.DashboardController">
+	<left>
+		<VBox prefHeight="600.0" prefWidth="250.0" style="-fx-background-color: #48A5EA;" BorderPane.alignment="CENTER">
+			<children>
+				<ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="50.0" top="20.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@Hotel.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="200.0" width="200.0" />
+               </viewport>
+				</ImageView>
+				<JFXButton alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#onNewBookingButtonClick" prefHeight="50.0" prefWidth="250.0" text="New Booking" textFill="WHITE">
+					<padding>
+						<Insets left="30.0" />
+					</padding>
+					<font>
+						<Font name="Segoe UI Bold" size="14.0" />
+					</font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Booking.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+				</JFXButton>
+				<JFXButton alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#onManageBookingButtonClick" prefHeight="50.0" prefWidth="250.0" text="Manage Booking" textFill="WHITE">
+					<padding>
+						<Insets left="30.0" />
+					</padding>
+					<font>
+						<Font name="Segoe UI Bold" size="14.0" />
+					</font>
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Manage.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+				</JFXButton>
+				<Region VBox.vgrow="ALWAYS" />
+				<JFXButton alignment="BASELINE_LEFT" graphicTextGap="20.0" onAction="#onLogoutButtonClick" prefHeight="50.0" prefWidth="250.0" text="Logout" textFill="WHITE">
+					<padding>
+						<Insets left="50.0" />
+					</padding>
+					<font>
+						<Font name="Segoe UI Bold" size="14.0" />
+					</font>
+				</JFXButton>
+			</children>
+		</VBox>
+	</left>
+</BorderPane>
