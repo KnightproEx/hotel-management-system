@@ -1,6 +1,6 @@
 # Hotel Management System
 
-Simple Hotel booking system built with JavaFX framework and SceneBuilder.
+Standalone Hotel booking system built with JavaFX and JFoenix.
 
 ## Features
 ### Add Booking
